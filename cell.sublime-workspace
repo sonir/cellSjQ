@@ -1,0 +1,450 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ser",
+				"servo1"
+			],
+			[
+				"ar",
+				"arduino_param"
+			],
+			[
+				"sending",
+				"sending_message_t"
+			],
+			[
+				"dr",
+				"drone_param"
+			],
+			[
+				"au",
+				"auto_filter_cutoff"
+			],
+			[
+				"auto",
+				"auto_filter_rate"
+			],
+			[
+				"autofiltr",
+				"auto_filter_ammount"
+			],
+			[
+				"aut",
+				"autopan_ammount"
+			],
+			[
+				"ac",
+				"action_flg"
+			],
+			[
+				"de",
+				"define"
+			],
+			[
+				"res",
+				"reset_flg"
+			],
+			[
+				"t",
+				"toolKit"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"dis",
+				"displayAgents"
+			],
+			[
+				"ci",
+				"circle"
+			],
+			[
+				"check",
+				"checkIntersect"
+			],
+			[
+				"cir",
+				"circle1"
+			],
+			[
+				"b_",
+				"b_ed"
+			],
+			[
+				"cic",
+				"circle1"
+			],
+			[
+				"a_",
+				"a_ed"
+			],
+			[
+				"getA",
+				"getArgAsFloat"
+			],
+			[
+				"pira",
+				"piradToPosition"
+			],
+			[
+				"got",
+				"got_radius"
+			],
+			[
+				"go",
+				"got_center_y"
+			],
+			[
+				"rad",
+				"radius"
+			],
+			[
+				"sc",
+				"screen_y"
+			],
+			[
+				"get",
+				"getPosition"
+			],
+			[
+				"sl_s",
+				"sl_screen_position"
+			],
+			[
+				"sl_",
+				"sl_scaled_position"
+			],
+			[
+				"scaled",
+				"scaled_y"
+			],
+			[
+				"tmp_",
+				"tmp_position"
+			],
+			[
+				"scal",
+				"scaled_x"
+			],
+			[
+				"sl",
+				"sl_scaled_position"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/C++/C++.sublime-build",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package control install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"pwd",
+			"ls",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/cell/cell/src/DroneServer.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/cell/cell/src/DroneServer.cpp",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/cell/cell/src/Server.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/cell/cell/src/Server.cpp",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/cell/cell/src/ArduinoServer.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/cell/cell/src/ArduinoServer.cpp",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/addons/slCellModel/src/slCellModelSetup.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/cell/cell/src/cellSetup.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/cell/cell/src/ofApp.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/cell/cell/src/ofApp.cpp",
+		"/Users/sonir/Desktop/Metro.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/cell/clTestCase/src/ofApp.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/cell/clTestCase/src/ofApp.cpp",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/addons/slCellModel/src/cellModelDataFoundation.cpp",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/addons/slGismodel/src/gismodel.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/addons/slCellModel/src/slCellModel.h",
+		"/Users/sonir/Documents/tmp_watch/1411_hanarart/dev/core/moduleTouchSensor4ch/moduleTouchSensor4ch.ino",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/myApps/cell/src/ofApp.cpp",
+		"/Users/sonir/Documents/tmp_watch/1411_hanarart/dev/arduino_rsrc/modules/moduleTouchSensor4ch/moduleTouchSensor4ch.ino",
+		"/Users/sonir/Desktop/foo/serialTest/serialTest.ino",
+		"/Users/sonir/Desktop/foo/serialTest.ino",
+		"/Users/sonir/Desktop/serialTest.ino",
+		"/Users/sonir/Documents/Arduino/test/test.ino",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/cell/PhysicalGismo/src/ofApp.cpp",
+		"/Users/sonir/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/addons/slMetro/src/slMetro.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/addons/slMetro/src/slMetro.cpp",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/cell/PhysicalGismoORF/src/ofApp.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/cell/videoCamTest/src/ofApp.cpp",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/addons/ofxMacamPs3Eye/example/src/testApp.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/addons/test/src/slTest.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/addons/slMetro/src/Metro.cpp",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/addons/slMetro/src/Metro.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/addons/slMetro/src/ofxMyAddon.h",
+		"/Users/sonir/Desktop/PhaseController.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/myApps/PhysicalGismoORF/src/DigitalFis.h",
+		"/Users/sonir/Desktop/Metro.cpp",
+		"/Users/sonir/Desktop/ofxHTTP-master/src/ofxHTTP.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/myApps/PhysicalGismo/src/ofApp.cpp",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/myApps/PhysicalGismo/src/DigitalFis.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/apps/myApps/PhysicalGismo/src/ofApp.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/addons/slCircular/src/slCircular.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/addons/slEuclid/src/slEuclid.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.1_ios_release/apps/sjq/1311_gismo_v2_1_cutup/src/gismo.h",
+		"/Users/sonir/Documents/boxes/dev_box/of_v0.8.4_osx_release/addons/slEuclid/src/intersect.h"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"#",
+			"1.0f",
+			"drone_param",
+			"System",
+			"PARAMETER_WIDTH",
+			"PRAM-",
+			"LEFT_OFFSET_PRAM",
+			"LEFT_OFFSET",
+			"dekar",
+			"Arg(",
+			"foo",
+			"auto",
+			"autopan",
+			"synth_",
+			"synth_pitch1_vol",
+			"float ",
+			"int",
+			"float ",
+			"l;",
+			"position",
+			"euclid_y",
+			"euclid_x",
+			"ofMap(getAgent.posi.x, -1.,1.,0.,1.)",
+			"delay(1);",
+			"a",
+			"b_state",
+			"a",
+			"log_a",
+			"a",
+			"c",
+			"a",
+			"state_a",
+			"state",
+			"digitalWrite",
+			"sender",
+			"Metro",
+			"sender",
+			"send",
+			"receiver",
+			"toolKit",
+			"convertPositionForScreen",
+			"seeds",
+			"POINT_t",
+			"tmp_a",
+			"listen",
+			"pirad+=0.01",
+			"circle3",
+			"circle2",
+			"circle1",
+			"\n    ",
+			");\n",
+			"new_position",
+			");\n",
+			"circle",
+			");\n",
+			"y"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"h1",
+			"slMetro",
+			"tmp_b",
+			"nxt",
+			"circle4",
+			"circle3",
+			"circle2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Desktop":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.foo":
+	{
+		"height": 100.0
+	},
+	"output.moduleTouchSensor4ch":
+	{
+		"height": 55.0
+	},
+	"output.serialTest":
+	{
+		"height": 100.0
+	},
+	"output.stino_log":
+	{
+		"height": 100.0
+	},
+	"output.test":
+	{
+		"height": 100.0
+	},
+	"project": "cell.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
