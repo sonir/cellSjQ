@@ -55,6 +55,7 @@
 		F248BFAC19FEA5BD00757B40 /* cellModelDataFoundation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F248BF8E19FEA5BC00757B40 /* cellModelDataFoundation.cpp */; };
 		F248BFAD19FEA5BD00757B40 /* slCellModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F248BF9019FEA5BC00757B40 /* slCellModel.cpp */; };
 		F248BFAE19FEA5BD00757B40 /* Toolkit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F248BF9319FEA5BC00757B40 /* Toolkit.cpp */; };
+		F2639E661A28A38E00B9FA18 /* VisualServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2639E641A28A38E00B9FA18 /* VisualServer.cpp */; };
 		F2666E3E1A1986CF00A97702 /* clDronePhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2666E3C1A1986CF00A97702 /* clDronePhase.cpp */; };
 		F285EB3169F1566CA3D93C20 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E112B3AEBEA2C091BF2B40AE /* ofxPanel.cpp */; };
 		F29A7BC61A0254D600BAB6C4 /* ArduinoServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29A7BC41A0254D600BAB6C4 /* ArduinoServer.cpp */; };
@@ -189,6 +190,8 @@
 		F248BF9219FEA5BC00757B40 /* slCellModelSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slCellModelSetup.h; sourceTree = "<group>"; };
 		F248BF9319FEA5BC00757B40 /* Toolkit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Toolkit.cpp; sourceTree = "<group>"; };
 		F248BF9419FEA5BC00757B40 /* Toolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toolkit.h; sourceTree = "<group>"; };
+		F2639E641A28A38E00B9FA18 /* VisualServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VisualServer.cpp; sourceTree = "<group>"; };
+		F2639E651A28A38E00B9FA18 /* VisualServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualServer.h; sourceTree = "<group>"; };
 		F2666E3C1A1986CF00A97702 /* clDronePhase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clDronePhase.cpp; sourceTree = "<group>"; };
 		F2666E3D1A1986CF00A97702 /* clDronePhase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clDronePhase.h; sourceTree = "<group>"; };
 		F278B65519FF9551009179A5 /* cellSetup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cellSetup.h; sourceTree = "<group>"; };
@@ -481,6 +484,8 @@
 				F29A7BC51A0254D600BAB6C4 /* ArduinoServer.h */,
 				F2A8507B19FF14D400100FA5 /* DroneServer.cpp */,
 				F2A8507C19FF14D400100FA5 /* DroneServer.h */,
+				F2639E641A28A38E00B9FA18 /* VisualServer.cpp */,
+				F2639E651A28A38E00B9FA18 /* VisualServer.h */,
 				F2BBF99A1A0B7D3700196099 /* ClipServer.cpp */,
 				F2BBF99B1A0B7D3700196099 /* ClipServer.h */,
 				F29A7BC71A02563B00BAB6C4 /* Server.cpp */,
@@ -734,6 +739,7 @@
 				C4782ECC372420ACE0615B74 /* OscPrintReceivedElements.cpp in Sources */,
 				0546D1A38E13BD319CC9755B /* OscReceivedElements.cpp in Sources */,
 				F248BFAC19FEA5BD00757B40 /* cellModelDataFoundation.cpp in Sources */,
+				F2639E661A28A38E00B9FA18 /* VisualServer.cpp in Sources */,
 				879A251454401BC0B6E4F238 /* OscTypes.cpp in Sources */,
 				63B57AC5BF4EF088491E0317 /* ofxXmlSettings.cpp in Sources */,
 				F29A7BC91A02563B00BAB6C4 /* Server.cpp in Sources */,

@@ -9,7 +9,9 @@
 #ifndef __cell__ClipServer__
 #define __cell__ClipServer__
 
-#define SND_SERVER_IP "49.212.138.54"
+//#define SND_SERVER_IP "49.212.138.54"
+#define SND_SERVER_IP "10.0.1.2" //TODO: For LAN
+
 //#define SND_SERVER_IP "224.0.0.1"
 //#define SND_SERVER_IP "127.0.0.1"
 
@@ -46,6 +48,7 @@ typedef struct clip_param_t{
      int ef_noiseconv_on; //0,1 <<<<<<<<<<
      float ef_noise_conv_modamp; //<<<<<<<<
     int clip_id; //pod number
+    float frequency;
     
 
 } clip_param_t;

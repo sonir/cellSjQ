@@ -43,6 +43,7 @@ void ClipServer::send(){
     m.addIntArg(clip_param.ef_noiseconv_on);
     m.addFloatArg(clip_param.ef_noise_conv_modamp);
     m.addIntArg(clip_param.clip_id);
+    m.addFloatArg(clip_param.frequency);
     //TODO: Rest until Start
     server.sendMessage(m);
     
@@ -81,6 +82,7 @@ void ClipServer::initParam(clip_param_t *pClip){
     pClip->ef_noiseconv_on = ofRandom(1); //0,1
     pClip->ef_noise_conv_modamp = ofRandom(1.);
     pClip->clip_id = this->createId(); //pod number
+    pClip->frequency = 1.0; //TODO: set r\frequency
     
     
 //    pClip->duration_frame; // 1-3

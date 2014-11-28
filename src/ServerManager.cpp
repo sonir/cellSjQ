@@ -121,7 +121,9 @@ void ServerManager::mappingToClip(){
     
     clip_param_t clip;
     clipServer->initParam(&clip);
+    clip.frequency = ofRandom(1.0);
     clip_params = clip;
+
     
 }
 

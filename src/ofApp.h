@@ -103,6 +103,9 @@ class ofApp : public ofBaseApp{
         slMetro *timerArduinoUpdate;
         slMetro *timerClipEvent;
 		slMetro *modeInterval;
+        slMetro *droneClipTimer;
+//        slMetro *droneSlow;    
+    
         //Fis
     	DigitalFis digitalFis;
     

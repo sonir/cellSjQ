@@ -28,6 +28,7 @@ void ofApp::setup(){
     timerArduinoUpdate = new slMetro(system.arduino_update_interval);
     timerClipEvent = new slMetro(CLIP_EVENT_INTERVAL);
 	modeInterval = new slMetro(MODE_INTERVAL);
+    droneClipTimer = new slMetro(DRONE_SLOW_INTERVAL);
     
     //Font Setup
     ofTrueTypeFont::setGlobalDpi(72);
@@ -143,6 +144,7 @@ void ofApp::update(){
             // It was first turn.
             if( dronePhase->isInit() ){
                 dronePhase->initParam(); //Init the params
+                droneClipTimer->resetStart();
             }
             
             //Do interactions with Normal (not clock) mode
@@ -151,6 +153,17 @@ void ofApp::update(){
             model->initTouchEvent();
             resetAtk();
             
+            //TODO: Sending droneClip
+            if(droneClipTimer->alart()){
+                
+                //Send Now Agents States
+                snap.ag[0] = model->getAgent(0);
+                snap.ag[1] = model->getAgent(1);
+                snap.ag[2] = model->getAgent(2);
+                snap.ag[3] = model->getAgent(3);
+                sound.update(CLIP, snap);
+                
+            }
             
 //            if(system.ag_atk[solo->focused_ag]){ //If the instrument was played
 //                
@@ -197,16 +210,17 @@ void ofApp::update(){
             sound.update(ARDUINO, snap);
         }
 
-        if(timerClipEvent->alart()){
-
-            //Send Now Agents States
-            snap.ag[0] = model->getAgent(0);
-            snap.ag[1] = model->getAgent(1);
-            snap.ag[2] = model->getAgent(2);
-            snap.ag[3] = model->getAgent(3);        
-            sound.update(CLIP, snap);
-            
-        }
+// REST NORMAL CLIP
+//        if(timerClipEvent->alart()){
+//
+//            //Send Now Agents States
+//            snap.ag[0] = model->getAgent(0);
+//            snap.ag[1] = model->getAgent(1);
+//            snap.ag[2] = model->getAgent(2);
+//            snap.ag[3] = model->getAgent(3);        
+//            sound.update(CLIP, snap);
+//            
+//        }
         
 //        if(modeInterval->alart()){
 //            
@@ -542,6 +556,7 @@ void ofApp::keyReleased(int key){
     } else if (key == 'd'){
         
         solo->reset();
+        droneClipTimer->set(DRONE_SLOW_INTERVAL);
         dronePhase->reset();
         resetAgent();
         
@@ -549,9 +564,23 @@ void ofApp::keyReleased(int key){
         
         system.phase = DRONE;
         setPresetMode(PS_VIBE);
-        system.now_mode = "mode> PS_VIBE";
+        system.now_mode = "mode> PS_VIBE(Slow)";
         updateSystemValue();
 
+    } else if (key == 'D'){
+            
+            solo->reset();
+            droneClipTimer->set(DRONE_FIRST_INTERVAL);
+            dronePhase->reset();
+            resetAgent();
+            
+            //        model->setMovFix(1.0);
+            
+            system.phase = DRONE;
+            setPresetMode(PS_VIBE);
+            system.now_mode = "mode> PS_VIBE(First)";
+            updateSystemValue();
+            
         
     } else if ( key == 'f') {
         
