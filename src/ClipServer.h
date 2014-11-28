@@ -10,6 +10,10 @@
 #define __cell__ClipServer__
 
 #define SND_SERVER_IP "49.212.138.54"
+//#define SND_SERVER_IP "224.0.0.1"
+//#define SND_SERVER_IP "127.0.0.1"
+
+
 #define SND_SERVER_PORT 57122
 #define PRINT_SERVER_IP "224.0.0.1"
 #define PRINT_SERVER_PORT 11370

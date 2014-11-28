@@ -595,6 +595,16 @@ void ofApp::keyReleased(int key){
         system.now_mode = "mode> PS_DEFAULT";
         updateSystemValue();
         
+    } else if (key == 't'){
+        
+        //Send Now Agents States
+        snap.ag[0] = model->getAgent(0);
+        snap.ag[1] = model->getAgent(1);
+        snap.ag[2] = model->getAgent(2);
+        snap.ag[3] = model->getAgent(3);
+        sound.update(CLIP, snap);
+
+        
     }
 
     

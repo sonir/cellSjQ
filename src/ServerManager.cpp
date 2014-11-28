@@ -161,6 +161,7 @@ void ServerManager::update(update_destination to,  agent_snap_t snap){
         case CLIP:
             this->mappingToClip();
 //  TODO: REST           clipServer->send(clip_params);
+            clipServer->send(clip_params); //Recover for SjQ Rakugaku NOV2014
             
         case ARDUINO:
             this->mappingToArduino();

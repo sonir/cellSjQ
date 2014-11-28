@@ -12,6 +12,8 @@
 	<dict>
 		<key>2EA7416C9DEDEA534C55472687848B2EA77AD5C2</key>
 		<string>https://github.com/sonir/cell.git</string>
+		<key>404329DA12F0DE1214169A433D3229EB36378932</key>
+		<string>https://github.com/sonir/cellSjQ.git</string>
 		<key>C49795EECBF0F0C866E077A897AAC32A1E443A59</key>
 		<string>https://github.com/sonir/slMetro.git</string>
 		<key>C4A49CA00D3884750A3D2793D0EDC92F5398A87F</key>
@@ -26,6 +28,8 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2EA7416C9DEDEA534C55472687848B2EA77AD5C2</key>
+		<string>../../../cell</string>
+		<key>404329DA12F0DE1214169A433D3229EB36378932</key>
 		<string>../..</string>
 		<key>C49795EECBF0F0C866E077A897AAC32A1E443A59</key>
 		<string>../../../addons/slMetro</string>
@@ -37,11 +41,11 @@
 		<string>../../../addons/slCircular</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/sonir/cell.git</string>
+	<string>https://github.com/sonir/cellSjQ.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2EA7416C9DEDEA534C55472687848B2EA77AD5C2</string>
+	<string>404329DA12F0DE1214169A433D3229EB36378932</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -51,6 +55,14 @@
 			<string>2EA7416C9DEDEA534C55472687848B2EA77AD5C2</string>
 			<key>IDESourceControlWCCName</key>
 			<string>cell</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>404329DA12F0DE1214169A433D3229EB36378932</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cell_sjq</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
